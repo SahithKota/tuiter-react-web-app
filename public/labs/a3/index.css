@@ -370,30 +370,30 @@ p#id-selector-2 {
 }
 
 @media (min-width: 0px) and (max-width: 600px) {
-    .media1{
+    body{
         background-color: yellow;
     }
-    .media-query1 {
+    .media-query {
         background-color: red;
         color: white;
     }
 }
 @media (min-width: 600px) and (max-width: 1200px) {
-    .media2{
+    body{
         background-color: blue;
         color: white;
     }
-    .media-query2 {
+    .media-query {
         background-color: yellow;
         color: black;
     }
 }
 @media (min-width: 1200px) and (max-width: 1800px) {
-    .media3{
+    body{
         background-color: red;
         color: white;
     }
-    .media-query3 {
+    .media-query {
         background-color: blue;
         color: white;
     }

@@ -12,7 +12,7 @@ const NavigationSidebar = (active) => {
                         </a>
                     </div>
                     <div class="list-group-item ${active==='explore'?'active':''}">
-                        <a href="../ExploreScreen/explore.html">
+                        <a href="../explore/index.html">
                             <div class="row">
                                 <i class="fa fa-hashtag fa-inverse col-xxl-2 col-xl-2"></i>
                                 <div class="col-xxl-10 col-xl-10 d-none d-xl-block position-relative ps-1" style="bottom: 3px"><span class="wd-font-color">Explore</span></div>

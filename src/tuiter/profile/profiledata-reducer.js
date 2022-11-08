@@ -1,16 +1,16 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const profile = {
-        firstName: "Kai", 
-        lastName: "Hiwatari", 
-        handle: "@kaihiwatari",
+        firstName: "Bruce", 
+        lastName: "Wayne", 
+        handle: "@batman",
         profilePicture: "jose.png", 	
         bannerPicture: "polyglot.png",
-        bio: "Former leader of the Blade Sharks and current leader of the G Revolutions. Also, former member of the Blitzkrieg Boys. Bit-Beast and Beyblade is Dranzer - one of the 4 Sacred Bit-Beasts.",
+        bio: "Batman's secret identity is Bruce Wayne, a wealthy American industrialist. As a child, Bruce witnessed the murder of his parents, Dr. Thomas Wayne and Martha Wayne, which ultimately led him to craft the Batman persona and seek justice against criminals.",
         website: "youtube.com/webdevtv",
         location: "Boston, MA",	
-        dateOfBirth: "1996-10-13",	
-        dateJoined: "2009-6-1",
+        dateOfBirth: "1997-08-06",	
+        dateJoined: "2011-08-06",
         followingCount: 340,	
         followersCount: 223,
         tweets: 4117

@@ -53,7 +53,7 @@ const ExploreComponent = () => {
       <div className="wd-grid-right-posts">
       
         <div className="wd-spacex-image">
-        <img id="wd-spacex-pic" src="/images/Starship.webp" />
+        <img id="wd-spacex-pic" src="/image/Starship.webp" />
         <h1 className="position-absolute bottom-0 left-0 text-white">SpaceX's Starship</h1>
         </div>
         <div id="wd-summary-content">

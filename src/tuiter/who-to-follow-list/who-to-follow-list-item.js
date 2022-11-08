@@ -11,7 +11,7 @@ const WhoToFollowListItem = ({who}
             src={who.avatarIcon}
           />
           <div>
-            <b>{who.userName}</b>&nbsp;<i className="bi bi-check-circle"></i><div className="wd-handler">@{who.handle}</div>
+            <b>{who.userName}</b>&nbsp;<i className="bi bi-circle-check bi-inverse"></i><div className="wd-handler">@{who.handle}</div>
           </div>
         </div>
           </div>

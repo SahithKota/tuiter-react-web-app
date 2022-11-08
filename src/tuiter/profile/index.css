@@ -1,0 +1,40 @@
+.wd-profile-handler{
+    color:darkgrey
+}
+
+.header-text{
+    background-color: rgba(176,176,176,0.7)
+}
+
+.wd-the-header-one{
+    position: relative;
+    padding: 100px 20px;
+}
+ 
+.wd-header-background-one{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    z-index: -100;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+  
+.wd-profile-picture-one{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: -75px;
+    border: 5px solid white;
+    margin-left: 7px;
+}
+
+.wd-tweets{
+    color:darkgray;
+    font-size: 11px;
+}
+
+.wd-back-icon{
+    font-size: 20px;
+}

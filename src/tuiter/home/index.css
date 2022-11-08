@@ -1,4 +1,92 @@
+.wd-zero-right-border{
+    border-right: 0px transparent;
+}
+.wd-rounded-buttons{
+    border-radius: 20px;
+}
+
+.fg-color-blue{
+    color: mediumslateblue;
+}
+
+.wd-overlay-name{
+    bottom: 70px;
+    color: darkgray;
+    font-size: 50px;
+}
+
+.wd-gray-color{
+    color:gray;
+}
+
+.wd-rounded-images{
+    border-radius: 50%;
+}
+
+.wd-list-group .list-group-item{
+    background-color: #343a40;
+}
+
+.wd-nav-bg-border{
+    border-bottom: 0;
+}
+
+.wd-main-content-images{
+    border-radius: 10px;
+}
+
+.wd-search-bar-color{
+    background-color: white;
+    border: none;
+}
+
+.wd-image-borders{
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.wd-button-bg:hover, .wd-button-bg{
+    background-color: rgb(114, 145, 196);
+    border: none;
+}
+
+.wd-follow-button{
+    background-color: white;
+    color: black;
+}
+
+.list-group-item.active{
+    background-color: rgb(114, 145, 196);
+    color: white;
+    border:none;
+}
+
+.nav-item.active{
+    background-color: rgb(114, 145, 196);
+}
+.nav-link:hover{
+    border: none;
+    color: white;
+}
+
+.wd-card-border{
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+/* .wd-card-title-border{
+    border-top:1px solid rgb(47, 51, 54);
+    border-radius: 0px 5px 5px 0px;
+} */
+
+#wd-explore{
+    background-color: black;
+}
+
+/**/
+
 .wd-background {
+    background-color: black;
     border-color: rgb(47, 51, 54);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -7,10 +95,10 @@
     flex-wrap: nowrap;
 }
 
-/* .row .wd-search-content{
+.row .wd-search-content{
     padding-left: 15px;
     padding-right: 12px;
-} */
+}
 
 .wd-search-bar-div {
     margin-top: 10px;
@@ -39,7 +127,7 @@
     border-radius: 20px;
     height: 40px;
     border-color: rgb(47, 51, 54);
-    border: lightgray;
+    border: 1px solid rgb(47, 51, 54);
     width: 92%;
     padding-left: 30px;
 }
@@ -95,7 +183,12 @@ a {
     border-radius: 10px;
     height: 100px;
     width: 100px;
+    background-color: black;
     margin-top: 4px;
+}
+
+.wd-author {
+    color: white;
 }
 
 .wd-tweet-pages-pic {
@@ -109,7 +202,9 @@ a {
     font-size: 12px;
     border-radius: 17px;
     margin-top: 4px;
-    color: black;
+    color: white;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
     font-weight: bold;
 }
 
@@ -125,7 +220,12 @@ a {
 }
 
 #wd-react-image {
+    padding-top: 15px;
     width: 100%;
+}
+
+.wd-unique {
+    background-color: black;
 }
 
 #wd-pages-menu {
@@ -151,28 +251,46 @@ input {
 }
 
 li.list-group-item.wd-main-menu{
+    color: white;
     background-color: #222222;
     font-size: 17px;
     border-bottom: 1px solid rgb(47, 51, 54);
 }
 
-#wd-summary-content{
-    margin-top: 7px;
+li.list-group-item.wd-main-menu.wd-highlight-home{
+    background-color: #0d6efd;
 }
 
-a.nav-link.active.wd-active-link {
-    color:white;
-    background-color: #0d6efd;
-    border: none;
-   
+#wd-main-content {
+    border: 1px solid rgb(47, 51, 54);
+    margin-top: 16px;
 }
+
+.nav-tabs .nav-link.active{
+    color:none;
+    background-color: none;
+    border-color: none;
+}
+a#wd-anchor{
+    color:white;
+    text-decoration: none;
+}
+/* a.nav-link.active.wd-active-link {
+    color:rgb(110, 118, 125);
+    background-color: black;
+    border: none;
+    border-bottom: 5px solid #0d6efd;;
+} */
 
 a.nav-link{
+    color: #71767B;
     border-bottom: 1px solid black;
 }
+
 .wd-posts-two{
     padding: 15px;
-    border-bottom: 1px solid lightgray;
+    border: 1px solid lightgray;
+    border-radius: 2px;
 }
 
 .wd-disclaimer{
@@ -185,14 +303,20 @@ a.nav-link{
     color: #71767B;;
 }
 
-a#wd-anchor{
-    color:white;
-    text-decoration: none;
-}
-li.list-group-item.wd-main-menu.wd-highlight-explore{
-    background-color: #0d6efd;
+#wd-bgcolor{
+    background-color: black;
 }
 
-.wd-explore-main {
-    padding: 12px;
+.row .wd-icons{
+    padding-top: 4px;
+    font-size: 15px;
+    
+}
+
+.wd-red-color{
+    color:crimson;
+}
+
+.wd-blue-color{
+    color:#0d6efd;;
 }

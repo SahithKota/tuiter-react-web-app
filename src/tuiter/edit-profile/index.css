@@ -1,0 +1,58 @@
+.wd-profile-handler{
+    color:darkgrey
+}
+
+.wd-the-header{
+    position: relative;
+    padding: 100px 20px;
+}
+ 
+.wd-header-background{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    z-index: -100;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter:brightness(40%);
+}
+  
+.wd-profile-picture{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: -75px;
+    border: 5px solid white;
+    margin-left: 7px;
+    filter:brightness(40%);
+}
+
+.wd-tweets{
+    color:darkgray;
+    font-size: 11px;
+}
+
+.wd-back-icon{
+    font-size: 24px;
+}
+
+.wd-edit-text{
+    font-size: 20px;
+}
+
+.wd-profile-icon{
+    z-index: 10;
+    bottom: 62%;
+    left: 16%;
+    font-size: 25px;
+    color: lightgray;
+}
+
+.wd-banner-icon{
+    z-index: 10;
+    color: lightgray;
+    bottom: 73%;
+    left: 44%;
+    font-size: 25px;
+}

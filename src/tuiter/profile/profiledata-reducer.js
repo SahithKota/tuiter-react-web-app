@@ -11,8 +11,8 @@ const profile = {
         location: "Boston, MA",	
         dateOfBirth: "1997-08-06",	
         dateJoined: "2011-08-06",
-        followingCount: 340,	
-        followersCount: 223,
+        followingCount: 1,	
+        followersCount: 1200,
         tweets: 4117
 }
 

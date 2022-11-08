@@ -66,11 +66,11 @@ const saveProfile = () =>{
 
 <div class="columns wd-the-header is-marginless">
 <div class="column header-text is-6 is-offset-3 is-12-mobile">
-  <img class="wd-header-background" src="../../image/profilebackground.jpg" id="header-background-id" alt="background-img"/>
+  <img class="wd-header-background" src="/images/batman_cover.jpeg" id="header-background-id" alt="background-img"/>
 </div>
 </div>
 <div class="column is-13 has-text-left">
-<img class="wd-profile-picture" src="../../image/kai.png" alt="profile-picture"/>
+<img class="wd-profile-picture" src="/images/Sahith_img.png" alt="profile-picture"/>
 </div>
 <div class="wd-profile-icon position-absolute">
 <i class="bi bi-camera-fill"></i>

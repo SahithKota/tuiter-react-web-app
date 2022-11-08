@@ -29,7 +29,7 @@ const ProfileComponent = () => {
 
 <div class="columns wd-the-header-one is-marginless">
 <div class="column wd-header-text-one is-6 is-offset-3 is-12-mobile">
-  <img class="wd-header-background-one" src="../../image/profilebackground.jpg" id="header-background-id" alt="background-img"/>
+  <img class="wd-header-background-one" src="/images/batman_cover.jpeg" id="header-background-id" alt="background-img"/>
 </div>
 </div>
 <Link to="/tuiter/editprofile" class="wd-editprofile-button">
@@ -37,7 +37,7 @@ const ProfileComponent = () => {
 </Link>
 
 <div class="column is-13 has-text-left">
-<img class="wd-profile-picture-one" src="../../image/kai.png" alt="profile-picture"/>
+<img class="wd-profile-picture-one" src="/images/Sahith_img.png" alt="profile-picture"/>
 </div>
 
 <div class="wd-profile-name">

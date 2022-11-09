@@ -50,4 +50,3 @@ const WhatsHappening = () => {
     );
 }
 export default WhatsHappening
-Footer

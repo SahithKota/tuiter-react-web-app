@@ -1,17 +1,27 @@
 [
-    {
-      "avatarIcon": "/images/nasa.jpeg",
-      "userName": "NASA",
-      "handle": "NASA"
-    },
-    {
-      "avatarIcon": "/images/tesla.png",
-      "userName": "Tesla",
-      "handle": "Tesla"
-    },
-    {
-      "avatarIcon": "/images/Starship.webp",
-      "userName": "SpaceX",
-      "handle": "SpaceX"
-    }
+  {
+    "avatarIcon": "/images/Starship.webp",
+    "userName": "SpaceX",
+    "handle": "SpaceX"
+  },
+  {
+    "avatarIcon": "/images/react_1.png",
+    "userName": "ReactJS",
+    "handle": "ReactJS"
+  },
+  {
+    "avatarIcon": "/images/jquery.png",
+    "userName": "JQuery",
+    "handle": "JQuery"
+  },
+  {
+    "avatarIcon": "/images/nasa.jpeg",
+    "userName": "NASA", 
+    "handle": "NASA"
+  },
+  {
+    "avatarIcon": "/images/tesla.png",
+    "userName": "Tesla",
+    "handle": "Tesla"
+  }
 ]

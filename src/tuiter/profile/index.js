@@ -3,7 +3,7 @@ import WhoToFollowList from "../who-to-follow-list";
 import "./index.css";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-
+import TuitList from "../tuit-list"
 
 const ProfileComponent = () => {
  const profileData = useSelector((state) => state.profile);
@@ -63,6 +63,7 @@ const ProfileComponent = () => {
 <div class="wd-followers">
 <b>{profileData.followersCount}</b> Followers <b>{profileData.followingCount}</b> Following
 </div>
+<TuitList/>
   </div>
 <div className="d-none d-lg-block col-lg-5 col-xl-5">
 <WhoToFollowList />

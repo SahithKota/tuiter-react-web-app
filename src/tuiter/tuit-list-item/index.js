@@ -2,8 +2,9 @@ import parse from 'html-react-parser'
 import {useDispatch} from "react-redux";
 import CloseIcon from '@mui/icons-material/Close';
 import IconButton from '@mui/material/IconButton';
-
 import  TuitStats from '../Tuit_stats';
+import { deleteTuit } from '../tuits/tuits-reducer';
+
 const tuitWithImage=({posts})=>{
     return(
         <div className="row mt-3">
@@ -21,8 +22,8 @@ const tuitWithImage=({posts})=>{
 
 const TuitListItem = ({posts}) =>{
     const dispatch = useDispatch();
-    const deleteTuit = (tuit) => {
-        dispatch({type: 'delete-tuit', tuit})
+    const deleteTuitClick = (tuit) => {
+        dispatch(deleteTuit(tuit._id));
     };
 
     return(
@@ -38,8 +39,8 @@ const TuitListItem = ({posts}) =>{
                     <span className="wd-font-color">{parse(`${posts.content}` )}</span>
                 </div>
                 <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 ">
-                    <IconButton children={<CloseIcon/>} style={{"color":"white"}} onClick={() => {
-                 deleteTuit(posts);
+                    <IconButton children={<CloseIcon/>} style={{"color":"black"}} onClick={() => {
+                 deleteTuitClick(posts);
                     }}/>
                 </div>
             </div>

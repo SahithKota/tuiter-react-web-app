@@ -36,9 +36,8 @@ const TuitListItem = ({posts}) =>{
                     <span className="wd-gray-color">{posts.handle}&nbsp;.&nbsp;{posts.timeframe}</span><br />
                     <span className="wd-font-color">{parse(`${posts.content}` )}</span>
                 </div>
-                <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 ">
-                   
-                    <i className="bi bi-x" tyle={{"color":"black"}} onClick={() => {
+                <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 ">       
+                    <i className="bi bi-x" style={{"color":"black"}} onClick={() => {
                  deleteTuitClick(posts);
                     }}></i>
                     

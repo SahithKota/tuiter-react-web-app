@@ -1,7 +1,5 @@
 import parse from 'html-react-parser'
 import {useDispatch} from "react-redux";
-import CloseIcon from '@mui/icons-material/Close';
-import IconButton from '@mui/material/IconButton';
 import  TuitStats from '../Tuit_stats';
 import { deleteTuit } from '../tuits/tuits-reducer';
 
@@ -39,9 +37,11 @@ const TuitListItem = ({posts}) =>{
                     <span className="wd-font-color">{parse(`${posts.content}` )}</span>
                 </div>
                 <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 ">
-                    <IconButton children={<CloseIcon/>} style={{"color":"black"}} onClick={() => {
+                   
+                    <i className="bi bi-x" tyle={{"color":"black"}} onClick={() => {
                  deleteTuitClick(posts);
-                    }}/>
+                    }}></i>
+                    
                 </div>
             </div>
             {posts.cardImage?tuitWithImage({posts}):''}

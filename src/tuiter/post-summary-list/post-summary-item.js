@@ -10,7 +10,7 @@ const PostSummaryItem = ({post}) => {
         <div className={post.tweets?'wd-topic':''}><b>{post.tweets}</b></div>
       </div>
       <div className="col-2">
-        <img id="wd-react-image" src={post.image} />
+        <img id="wd-react-image" src={post.image} alt="po"/>
       </div>
     </div>
   </div>

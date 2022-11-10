@@ -10,7 +10,6 @@ const ProfileComponent = () => {
  let month = new Date(profileData.dateJoined).toDateString().slice(4,7);
  let year = new Date(profileData.dateJoined).toDateString().slice(11,15);
  let dobarray = profileData.dateOfBirth.split("-"); 
- let d = new Date(dobarray[0],dobarray[1],dobarray[2]).toDateString();
  let joinDate = month.concat(" ").concat(year);
  return(
   
@@ -37,7 +36,7 @@ const ProfileComponent = () => {
 </Link>
 
 <div class="column is-13 has-text-left">
-<img class="wd-profile-picture-one" src="/images/Sahith_img.png" alt="profile-picture"/>
+<img class="wd-profile-picture-one" src="/images/Sahith_img.png" alt="profile"/>
 </div>
 
 <div class="wd-profile-name">

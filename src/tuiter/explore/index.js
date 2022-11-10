@@ -34,26 +34,26 @@ const ExploreComponent = () => {
   </div>
     <ul className="nav nav-tabs wd-nav-tabs">
       <li className="nav-item">
-        <b><a className="nav-link active wd-active-link" href="#">For you</a></b>
+        <b><a className="nav-link active wd-active-link" href="/#">For you</a></b>
       </li>
       <li className="nav-item">
-       <b><a className="nav-link" href="#">Trending</a></b>
+       <b><a className="nav-link" href="/#">Trending</a></b>
       </li>
       <li className="nav-item">
-        <b><a className="nav-link" href="#">News</a></b>
+        <b><a className="nav-link" href="/#">News</a></b>
       </li>
       <li className="nav-item">
-        <b><a className="nav-link" href="#">Sports</a></b>
+        <b><a className="nav-link" href="/#">Sports</a></b>
       </li>
       <li className="d-none d-md-block d-lg-block d-xl-block d-xxl-block nav-item">
-        <b><a className="nav-link" href="#">Entertainment</a></b>
+        <b><a className="nav-link" href="/#">Entertainment</a></b>
       </li>
     </ul>
     <div className="wd-grid-row">
       <div className="wd-grid-right-posts">
       
         <div className="wd-spacex-image">
-        <img id="wd-spacex-pic" src="/images/Starship.webp" />
+        <img id="wd-spacex-pic" src="/images/Starship.webp" alt="star"/>
         <h1 className="position-absolute bottom-0 left-0 text-white">SpaceX's Starship</h1>
         </div>
         <div id="wd-summary-content">

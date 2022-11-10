@@ -70,7 +70,7 @@ const saveProfile = () =>{
 </div>
 </div>
 <div class="column is-13 has-text-left">
-<img class="wd-profile-picture" src="/images/Sahith_img.png" alt="profile-picture"/>
+<img class="wd-profile-picture" src="/images/Sahith_img.png" alt="profile"/>
 </div>
 <div class="wd-profile-icon position-absolute">
 <i class="bi bi-camera-fill"></i>

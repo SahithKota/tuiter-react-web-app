@@ -8,7 +8,7 @@ const WhoToFollowListItem = ({who}
           <div className="d-flex flex-row align-items-center">
             <img
             className="wd-tweet-pages-pic"
-            src={who.avatarIcon}
+            src={who.avatarIcon} alt="who"
           />
           <div>
             <b>{who.userName}</b>&nbsp;<i className="bi bi-circle-check bi-inverse"></i><div className="wd-handler">@{who.handle}</div>

@@ -1,5 +1,4 @@
 import React from "react";
-import PostList from "../post-list";
 import WhoToFollowList from "../who-to-follow-list";
 import "./index.css";
 import WhatsHappening from "./whats-happening";

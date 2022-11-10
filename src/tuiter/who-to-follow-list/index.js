@@ -14,7 +14,7 @@ const WhoToFollowList = () => {
     }
     <li class="list-group-item wd-follow-label" style={{borderRadius:"0px 0px 15px 15px"}}>
     <div class="row wd-row">
-        <a href="#">Show More</a>
+        <a href="/#">Show More</a>
     </div>
 </li>
 

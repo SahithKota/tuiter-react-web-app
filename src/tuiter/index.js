@@ -1,4 +1,3 @@
-import Nav from "../nav";
 import ExploreComponent from "./explore";
 import NavigationSidebar from "./navigation-sidebar";
 import HomeComponent from "./home"

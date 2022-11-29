@@ -1,7 +1,7 @@
 import parse from 'html-react-parser'
 import {useDispatch} from "react-redux";
 import  TuitStats from '../Tuit_stats';
-import { deleteTuit } from '../tuits/tuits-reducer';
+import { deleteTuitThunk } from '../../services/tuits-thunks';
 
 const tuitWithImage=({posts})=>{
     return(
@@ -21,7 +21,7 @@ const tuitWithImage=({posts})=>{
 const TuitListItem = ({posts}) =>{
     const dispatch = useDispatch();
     const deleteTuitClick = (tuit) => {
-        dispatch(deleteTuit(tuit._id));
+        dispatch(deleteTuitThunk(tuit._id));
     };
 
     return(
@@ -34,7 +34,7 @@ const TuitListItem = ({posts}) =>{
                     <span className="wd-font-color">{posts.username}</span>
                     <i className="fa fa-circle-check fa-inverse"></i><br />
                     <span className="wd-gray-color">{posts.handle}&nbsp;.&nbsp;{posts.timeframe}</span><br />
-                    <span className="wd-font-color">{parse(`${posts.content}` )}</span>
+                    <span className="wd-font-color">{parse(`${posts.tuit}` )}</span>
                 </div>
                 <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 ">       
                     <i className="bi bi-x" style={{"color":"black"}} onClick={() => {
@@ -44,21 +44,7 @@ const TuitListItem = ({posts}) =>{
                 </div>
             </div>
             {posts.cardImage?tuitWithImage({posts}):''}
-            <div className="row mt-2">
-                <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
-                    <i className='far fa-comment wd-gray-color'>&nbsp;{posts.commentNumber}</i>
-                </div>
-                <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
-                    <i className='fa fa-share-alt wd-gray-color'>&nbsp;{posts.shareNumber}</i>
-                </div>
-                <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
-                    {/*<i className='fa fa-heart wd-gray-color'>&nbsp;{posts.heartNumber}</i>*/}
-                    <TuitStats tuit={posts}/>
-                </div>
-                <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3">
-                    <i className='fa fa-download wd-gray-color'></i>
-                </div>
-            </div>
+            <TuitStats tuit={posts}/>
         </div>
     );
 }
